@@ -29,7 +29,7 @@ if (isset($_POST['Submit'])) {
 										'" . $_POST['Name'] . "'
 									)";
 		$Result = DB_query($SQL, $db);
-		prnMsg( _('Hello') . ' ' . $_POST['Name'], 'info');
+		prnMsg( _('Hi') . ' ' . $_POST['Name'], 'info');
 	}
 } else {
 	echo '<div class="page_help_text noPrint">' . _('Enter your name in the box below.') . '</div>';
